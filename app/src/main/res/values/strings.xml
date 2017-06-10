@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GYK - Demo</string>
+    <string name="btn_linearLayoutV">Linear Layout (Dikey)</string>
+    <string name="btn_linearLayoutH">Linear Layout (Yatay)</string>
+    <string name="btn_login">Kullanıcı Giriş Arayüzü</string>
+    <string name="editText_username_hint">Kullanıcı Adı</string>
+    <string name="editText_password_hint">Şifre</string>
+    <string name="btn_user_login">Giriş Yap</string>
+</resources>
