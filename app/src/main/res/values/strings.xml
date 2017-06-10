@@ -6,4 +6,5 @@
     <string name="editText_username_hint">Kullanıcı Adı</string>
     <string name="editText_password_hint">Şifre</string>
     <string name="btn_user_login">Giriş Yap</string>
+    <string name="btn_listview_example">Varsayılan ListView</string>
 </resources>

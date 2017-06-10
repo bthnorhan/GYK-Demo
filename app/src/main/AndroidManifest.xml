@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".LinearLayoutV" />
         <activity android:name=".LinearLayoutH" />
-        <activity android:name=".KullaniciGirisArayuzu"/>
+        <activity android:name=".KullaniciGirisArayuzu" />
+        <activity android:name=".ListViewUlkeler"></activity>
     </application>
 
 </manifest>
