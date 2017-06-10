@@ -7,6 +7,10 @@
     tools:context="tr.bthnorhan.gyk_demo.LinearLayoutV"
     android:orientation="vertical">
 
+    <!--
+         Linear Layoutumuzun orientation özelliğini vertical yaparak layoutumuzu dikey konuma getirdik.
+    -->
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"

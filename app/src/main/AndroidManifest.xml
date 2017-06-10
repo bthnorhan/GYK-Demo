@@ -19,7 +19,8 @@
         <activity android:name=".LinearLayoutV" />
         <activity android:name=".LinearLayoutH" />
         <activity android:name=".KullaniciGirisArayuzu" />
-        <activity android:name=".ListViewUlkeler"></activity>
+        <activity android:name=".ListViewUlkeler" />
+        <activity android:name=".Kullanici"></activity>
     </application>
 
 </manifest>

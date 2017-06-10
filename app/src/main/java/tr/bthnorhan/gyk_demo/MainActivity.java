@@ -3,13 +3,17 @@ package tr.bthnorhan.gyk_demo;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static String TAG = "MAINACTIVITY";
+    /*
+        Bazı öntanımlamalar private, protected public şeklindedir.
+        private - tanımlanan değişkenin sadece o classta kullanılmasını sağlar.
+        protected - tanımlanan değişken o class ve alt classlarında kullanılmasını sağlar.
+        public - tanımlanan değişken o proje içinde kullanılmasını sağlar.
+     */
     private Intent activity;
 
     @Override
@@ -20,7 +24,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void buton_Tiklama(View view)
     {
-        Log.d(TAG, String.valueOf(view.getId()));
+        /*
+            Butonlar farklı iilevlere sahip fakat aynı onClick metodunda oldukları için
+            butonun idsine göre işlevlerini yaptırıcaz.
+            View.getId() - metodu ile tıklanan butonun sahip olduğu id değişkenini aldık.
+         */
         switch (view.getId())
         {
             case R.id.btn_linearLayoutV:
@@ -38,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
             default:
                 Toast.makeText(this,"Buton idsi bulunamadı.",Toast.LENGTH_LONG).show();
         }
+
+        //activity nesnemiz null değil ise diğer activity'e geçiş yapıyoruz.
         if (activity != null)
         {
             startActivity(activity);

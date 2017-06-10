@@ -6,6 +6,11 @@
     android:layout_height="match_parent"
     tools:context="tr.bthnorhan.gyk_demo.LinearLayoutH">
 
+    <!--
+         Linear Layoutumuz varsayılan olarak horizantal geldi.Bundan dolayı orientation özelliğini
+         belirlememize gerek kalmadı.
+    -->
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
