@@ -43,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_listView:
                 activity = new Intent(this,ListViewUlkeler.class);
                 break;
+            case R.id.btn_customListView:
+                activity = new Intent(this,CustomListView.class);
+                break;
             default:
                 Toast.makeText(this,"Buton idsi bulunamadı.",Toast.LENGTH_LONG).show();
         }

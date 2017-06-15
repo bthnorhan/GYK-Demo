@@ -7,4 +7,9 @@
     <string name="editText_password_hint">Şifre</string>
     <string name="btn_user_login">Giriş Yap</string>
     <string name="btn_listview_example">Varsayılan ListView</string>
+    <string name="editText_name">İsim Soyisim</string>
+    <string name="checkBox_isWoman">Kadın mı?</string>
+    <string name="button_add">Listeye Ekle</string>
+    <string name="button_goList">Listeye Git</string>
+    <string name="button_customListView">Özel ListView</string>
 </resources>

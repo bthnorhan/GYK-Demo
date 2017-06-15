@@ -20,7 +20,8 @@
         <activity android:name=".LinearLayoutH" />
         <activity android:name=".KullaniciGirisArayuzu" />
         <activity android:name=".ListViewUlkeler" />
-        <activity android:name=".Kullanici"></activity>
+        <activity android:name=".Kullanici" />
+        <activity android:name=".CustomListView" />
     </application>
 
 </manifest>
